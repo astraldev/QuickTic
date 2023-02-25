@@ -1,0 +1,13 @@
+.display-game-block{
+    transform-style: preserve-3d;
+    transform-origin: top center;
+    animation: rotate-y-ltr 4s ease-out 0ms infinite alternate;
+}
+
+@keyframes rotate-y-ltr {
+    from{
+        transform: rotateY(10deg);
+    }to{
+        transform: rotateY(-10deg);
+    }
+}

@@ -1,0 +1,4 @@
+input:checked:before{
+    content: "\2713";
+    @apply text-inherit h-8 w-8 absolute bg-transparent grid place-items-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2;
+}

@@ -1,0 +1,3 @@
+.action-button {
+    @apply px-2 py-3 font-medium grid place-items-center mx-auto my-1 border rounded-md;
+}

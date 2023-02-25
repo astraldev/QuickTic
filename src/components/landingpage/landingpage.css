@@ -1,0 +1,11 @@
+
+div {
+    animation: fade-out 1s ease-out 6.5s 1 forwards ;
+}
+
+@keyframes fade-out {
+    to {
+        opacity: 0;
+        display: hidden;
+    }
+}
